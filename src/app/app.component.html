@@ -1,0 +1,10 @@
+<!-- The content below is only a placeholder and can be replaced. -->
+<div style="text-align:center">
+  <h1>{{ title }}!</h1>
+  <p>Start Date : {{start_date}}</p>
+  <p>End Date : {{end_date}}</p>
+  <p>Total Days : {{total_days}}</p>
+  <p>Number of {{day}} th of the range : {{count}}</p>
+  <p><b>My dates</b></p>
+  <p *ngFor="let date of day_array">{{date}}</p>
+</div>
